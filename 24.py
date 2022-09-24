@@ -29,5 +29,5 @@ def evaluate(permutation):
             pass
 
 
-for permutation in itertools.product([i for i in itertools.permutations([3, 3, 7, 8])], symbols, symbols, symbols):
+for permutation in itertools.product(itertools.permutations(numbers), symbols, symbols, symbols):
     evaluate(permutation)
