@@ -11,7 +11,7 @@ target = 24
 
 def evaluate(permutation):
     (num1, num2, num3, num4), sym1, sym2, sym3 = permutation
-    
+
     expressions = [
         "((%d %s   %d) %s  %d)  %s %d  ",
         " (%d %s  (%d  %s  %d)) %s %d  ",
